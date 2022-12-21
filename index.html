@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Netbook - Social Networking</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/img/logo/favicon-64.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/logo/favicon-192.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Animation on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light position-absolute w-100 py-2 py-sm-4">
+        <div class="container">
+            <a class="navbar-brand me-0 me-md-5" href="./">
+                <img src="assets/img/logo/netbook-logo.svg" alt="netbook-logo">
+            </a>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:;" role="button" data-bs-toggle="dropdown">Community</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Link</a></li>
+                            <li><a class="dropdown-item" href="#">Another link</a></li>
+                            <li><a class="dropdown-item" href="#">A third link</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:;">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:;">Events</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-none d-sm-flex align-items-center ms-auto">
+                <div class="me-4">
+                    <form class="input-group nav-search">
+                        <i class="fa fa-search"></i>
+                        <input type="text" class="form-control" placeholder="Search here..." required>
+                    </form>
+                </div>
+                <button class="btn btn-primary btn-sm">Log in</button>
+            </div>
+            <button class="navbar-toggler ms-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav">
+                <i class="fa fa-bars text--primary"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Content -->
+
+    <main>
+
+        <!-- Hero -->
+
+        <section class="hero">
+            <div class="container">
+                <div class="row align-items-center pt-5">
+                    <div class="col-md-10 col-lg-5 me-auto mb-4 mb-lg-0">
+                        <p class="d-inline-block small rounded-3 bg-primary-light subheading text--primary px-4 py-2" data-aos="fade-up">Netbook community</p>
+                        <h1 class="mt-2 mb-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Your Solutions For Community!</h1>
+                        <p class="lead mb-5" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">More than 2 billion people in over countries use socibook to stay in touch with friends & family.</p>
+                        <button class="btn btn-primary me-2 mb-2" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">About More</button>
+                        <button class="btn btn-outline-primary mb-2" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">Invite Friend</button>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="assets/img/person-communicating.svg" alt="communicating" class="img-fluid pe-4 pe-lg-0" data-aos="zoom-in-up" data-aos-duration="1500">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+
+        <section class="container space">
+            <div class="row align-items-center pt-5">
+                <div class="col-md-5 col-xl-4">
+                    <p class="text--primary subheading" data-aos="fade-up">Whats Netboks?</p>
+                    <h2 data-aos="fade-up" data-aos-delay="100">Why Join to Netbook Social Network?</h2>
+                    <p class="mt-3 mb-4" data-aos="fade-in" data-aos-delay="200">Recent surveys have indicated that small businesses recognise the need they have to connect with consumer.</p>
+                    <ul class="list-icon text-dark ps-4" data-aos="fade-in" data-aos-delay="200">
+                        <li>Groups</li>
+                        <li>Messages</li>
+                        <li>Share</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 ms-auto">
+                    <div class="row">
+                        <div class="col-6 mt-5">
+                            <img src="assets/img/sharing.jpg" alt="people discussing" class="img-fluid rounded-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+                        </div>
+                        <div class="col-6">
+                            <img src="assets/img/laptop.jpg" alt="using laptop" class="img-fluid rounded-4 mb-4" data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+                            <img src="assets/img/network.jpg" alt="network wire" class="img-fluid rounded-4" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievement -->
+
+        <section class="container space pt-5">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-xl-4 order-2 order-xl-1" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200">
+                    <div class="card p-4 p-sm-5 mb-4">
+                        <div class="d-flex">
+                            <i class="icon icon-star"></i> 
+                            <p class="h4 text-dark ms-2">4.8 Rating</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-4">
+                            <div class="avatar-group me-3">
+                                <span class="avatar" data-bs-toggle="tooltip" title="Fahim Rahman">
+                                    <img src="assets/img/team/member-1.jpg" alt="avatar">
+                                </span>
+                                <span class="avatar" data-bs-toggle="tooltip" title="Masterero Ali">
+                                    <img src="assets/img/team/member-2.jpg" alt="avatar">
+                                </span>
+                                <span class="avatar" data-bs-toggle="tooltip" title="Alia Karon">
+                                    <img src="assets/img/team/member-3.jpg" alt="avatar">
+                                </span>
+                            </div>
+                            <p class="text--dark mb-0"><b class="text-primary">+836k</b> Members</p>
+                        </div>
+                        <p class="my-5">More than 2 billion we people over countries use socibooks we to stay in touch with friends.</p>
+                        <a href="javascript:;">Join Our Community <i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4 order-3 order-xl-2" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1200">
+                    <div class="card p-4 p-sm-5 mb-4">
+                        <div class="d-flex">
+                            <i class="icon icon-trophy"></i> 
+                            <p class="h4 text-dark ms-2">Awwwards</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-4">
+                            <div class="rounded-circle bg--warning py-1 px-2 me-3"><i class="fab fa-github text-light"></i></div>
+                            <p class="text--dark mb-0">Best of <b class="text-primary">2021</b> on Github </p>
+                        </div>
+                        <p class="my-5">More than 2 billion we people over countries use socibooks we to stay in touch with friends.</p>
+                        <a href="javascript:;">Go To Awards <i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-10 col-md-8 col-xl-4 order-1 order-xl-3 p-3 p-sm-5 mb-3 mb-sm-0">
+                    <p class="text--primary subheading" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Our Achievement</p>
+                    <h2 class="h3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">We are Connecting You The Digital Life.</h2>
+                    <p class="mt-3 mb-4" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">The scope the Social Media becomes crucial is helps the business to directly engage with their needs and wants.</p>
+                    <button class="btn btn-primary" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                        Discover me <i class="fa fa-arrow-right ms-3"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Teams -->
+
+        <section class="container space">
+            <div class="row justify-content-center pb-5">
+                <div class="col-sm-10 col-md-8 col-lg-6 col-xl-5 text-center">
+                    <p class="text--primary subheading" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">Valuable Team</p>
+                    <h2 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">Our Active Members</h2>
+                    <p class="mb-5" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">when an unknown printer took a galley of type and meeting fari scrambled it.</p>
+                    <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1200" data-aos-anchor-placement="center-bottom">
+
+                        <!-- Nav pills -->
+                        <ul class="nav nav-pills nav-justified justify-content-center p-2">
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="pill" href="#team_newest">Newest</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="pill" href="#team_popular">Popular</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" data-bs-toggle="pill" href="#team_active">Active</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Tab panes -->
+                <div class="tab-content mt-5" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1200">
+                    <div class="tab-pane fade" id="team_newest">
+                        <div class="row text-center">
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="team-card">
+                                    <div class="team-avatar">
+                                        <img src="assets/img/team/team-2.png" alt="person">
+                                    </div>
+                                    <p class="h5">Kazi Rahman</p>
+                                    <p>@rahman</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="team-card">
+                                    <div class="team-avatar">
+                                        <img src="assets/img/team/team-1.png" alt="person">
+                                    </div>
+                                    <p class="h5">Fahim Rahman</p>
+                                    <p>@rahman</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="team-card">
+                                    <div class="team-avatar">
+                                        <img src="assets/img/team/team-3.png" alt="person">
+                                    </div>
+                                    <p class="h5">Masterero Ali</p>
+                                    <p>@Masterero</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="team_popular">
+                        <div class="row text-center">
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="team-card">
+                                    <div class="team-avatar active">
+                                        <img src="assets/img/team/team-3.png" alt="person">
+                                    </div>
+                                    <p class="h5">Masterero Ali</p>
+                                    <p>@Masterero</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="team-card">
+                                    <div class="team-avatar">
+                                        <img src="assets/img/team/team-2.png" alt="person">
+                                    </div>
+                                    <p class="h5">Kazi Rahman</p>
+                                    <p>@rahman</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="team-card">
+                                    <div class="team-avatar active">
+                                        <img src="assets/img/team/team-1.png" alt="person">
+                                    </div>
+                                    <p class="h5">Fahim Rahman</p>
+                                    <p>@rahman</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="team-card">
+                                    <div class="team-avatar">
+                                        <img src="assets/img/team/team-4.png" alt="person">
+                                    </div>
+                                    <p class="h5">Alia Karon</p>
+                                    <p>@alia</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show active" id="team_active">
+                        <div class="row text-center">
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="team-card">
+                                    <div class="team-avatar active">
+                                        <img src="assets/img/team/team-1.png" alt="person">
+                                    </div>
+                                    <p class="h5">Fahim Rahman</p>
+                                    <p>@Rahman</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="team-card">
+                                    <div class="team-avatar active">
+                                        <img src="assets/img/team/team-2.png" alt="person">
+                                    </div>
+                                    <p class="h5">Kazi Rahman</p>
+                                    <p>@Kazi</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="team-card">
+                                    <div class="team-avatar active">
+                                        <img src="assets/img/team/team-3.png" alt="person">
+                                    </div>
+                                    <p class="h5">Masterero Ali</p>
+                                    <p>@Masterero</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="team-card">
+                                    <div class="team-avatar active">
+                                        <img src="assets/img/team/team-4.png" alt="person">
+                                    </div>
+                                    <p class="h5">Alia Karon</p>
+                                    <p>@Alia</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <div class="row px-3 px-sm-0">
+                <div class="col-lg-3 text-start text-sm-center text-lg-start">
+                    <a href="./">
+                        <img src="assets/img/logo/netbook-logo-white.svg" alt="netbook-logo">
+                    </a>
+                </div>
+                <div class="col-lg-6 my-4 my-lg-0">
+                    <ul class="nav justify-content-around">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:;">Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:;">Community</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:;">Members</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3" id="socialLinks">
+                    <ul class="social-icons justify-content-start justify-content-sm-center justify-content-lg-end ps-3 ps-sm-0">
+                        <li><a href="javascript:;"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="javascript:;"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="javascript:;"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="javascript:;"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Offcanvas Sidebar Menu -->
+    <div class="offcanvas offcanvas-start" id="mobileNav">
+        <div class="offcanvas-header">
+            <div class="offcanvas-title">
+                <a href="./">
+                    <img src="assets/img/logo/netbook-logo.svg" alt="netbook-logo">
+                </a>
+            </div>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
